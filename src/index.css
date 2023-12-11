@@ -43,6 +43,17 @@ body {
   font-weight: bold;
   color: #3B0B0B;
 }
+.column{
+  margin-top:32px;
+}
+
+.image{
+  width:300px;
+}
+
+form select{
+  width:154px;
+}
 
 .normalText {
   font-family: Georgia, serif;
@@ -91,6 +102,10 @@ ul {
   opacity: 1;
 }
 
+.hidden{
+  display:none;
+}
+
 .minBackgroundSneak {
   position: absolute;
   width: inherit;
@@ -134,6 +149,7 @@ ul {
   height: 80px;
   transition: all .2s ease-in-out;
 }
+
 
 .footer {
   padding: 1%;
